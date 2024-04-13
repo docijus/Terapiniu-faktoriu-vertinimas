@@ -20,3 +20,44 @@ body {
 select {
     width: 100%;
 }
+/* Bendri stiliai */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+#therapyFactors {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+#therapyFactors .factors div {
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* Stiliai mobiliesiems įrenginiams */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #therapyFactors {
+        padding: 10px;
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+
+    select {
+        font-size: 16px; /* Padidinti teksto dydį palengvina naudojimą mobiliuosiuose įrenginiuose */
+    }
+}
